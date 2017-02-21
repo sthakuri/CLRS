@@ -15,11 +15,9 @@ namespace ConsoleApplication
             int[] data1 = new int[] { 1, 2, 3, 4, 5, 6 };
             PrintArray(data1);
             Console.WriteLine();
-            PrintArray(InsertionSort.Sort(data1));
+            PrintArray(MergeSort.Sort(data1));
 
-            string str = "myName";
-            Console.WriteLine();
-            Console.WriteLine(InsertionSort.Sort(str));
+            
             /*End of your code */
 
             sw.Stop();
